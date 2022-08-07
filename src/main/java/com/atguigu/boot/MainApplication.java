@@ -94,5 +94,8 @@ public class MainApplication {
         System.out.println("======="+beanNamesForType.length);*/
         String[] beanNamesForType = run.getBeanNamesForType(WebMvcProperties.class);
         System.out.println("======"+beanNamesForType.length);
+
+        System.out.println("git test");
+
     }
 }
